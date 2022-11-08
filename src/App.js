@@ -71,7 +71,7 @@ class App extends Component {
           <Route
             path="/directory/:fentities"
             exact
-            render={({ match }) => <Fentities match={match} />}
+            render={({ match }) => <Fentities state={state} match={match} />}
           />
           {/* Routes go here v */}
 
